@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains machine learning projects I've conducted during the process of my studies and personal learning in the field. Most of the projects also contain detailed reports that discuss the rationale behind the projects, methodology used and discussion/evaluation of the achieved results with further suggestions on ways of improvement. The notebook files used are also organised is a sequential step-by-step manner making them easy to follow and understand.
+This repository contains machine learning projects I've conducted during the process ML exploration. Most of the projects also contain detailed reports that discuss the rationale behind the projects, methodology used and discussion/evaluation of the achieved results with further suggestions on ways of improvement. The notebook files used are also organised is a sequential step-by-step manner making them easy to follow and understand.
 
 All the required data for the projects are available in the links contanined within the Jupyter Notebooks or folder paths.
 
