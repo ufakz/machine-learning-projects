@@ -20,6 +20,12 @@ Every project followed the standard protocol of machine learning projects includ
 
 This project aims to understand user sentiments in tweets by constructing and evaluating supervised machine learning models. Data preprocessing involves cleansing, tokenizing, and encoding tweets, followed by vectorization using TF-IDF and Word2Vec. Four models: Logistic Regression, Linear SVC, Random Forest, and SGD Classifier—are trained on the refined dataset. The performance of these models is evaluated using accuracy, precision, recall, and F1-score metrics. Additionally, a deep learning approach using a fine-tuned BERT model is employed, achieving an accuracy of 82%, which is 4% higher than the best-performing machine learning model, Logistic Regression with Word2Vec, which had an accuracy of 78%.
 
+### [UNet Model for Segmentation](https://github.com/ufakz/unet-final)
+
+Deep learning project using the UNet architecture for biomedical image segmentation and road scene detection with PyTorch. Supports both standard UNet and early fusion UNet variants for RGB and depth image pairs.
+
+Project repository: https://github.com/ufakz/unet-final
+
 ### [Sensor Fusion](./sensor-fusion/)
 
 Using RGB and depth images, a Fully Convolutional Network (FCN) is trained for road scene detection. Unlike traditional convolutional networks that use fully connected layers at the end, FCNs use convolutional layers throughout the network allowing them to capture spatial information for segmentation tasks. Depth images provide information about the distance of objects from the camera. Each pixel in a depth image represents the distance from the camera to the object in the scene. By using both RGB and depth images, the FCN can leverage color information and spatial depth information to improve the accuracy of the detection.
